@@ -57,6 +57,8 @@ Before running the program, ensure you have a C compiler installed:
 2. **Clone this repository:**
    ```bash
    git clone https://github.com/asrahi-8/C-Calculator.git
+   ```
+   ```bash
    cd C-Calculator
    gcc NEW.c -o calculator.exe
    ./calculator.exe
