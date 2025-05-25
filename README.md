@@ -60,24 +60,27 @@ Before running the program, ensure you have a C compiler installed:
    cd C-Calculator
    gcc NEW.c -o calculator.exe
    ./calculator.exe
-   
+   ```
 ### MacOS
 1. **Install Xcode Command Line Tools:**
 Open Terminal and run:
 
 xcode-select --install
 Clone the repository:
-
+```bash
 git clone https://github.com/asrahi-8/C-Calculator.git
 cd C-Calculator
+```
 Compile the program:
-
+```bash
 gcc NEW.c -o calculator
-Run the program:
+```
 
+Run the program:
+```bash
 ./calculator
 
-
+```
 
 ### Linux (Debian/Ubuntu)
 1.**Install build-essential (includes GCC):**
@@ -85,36 +88,40 @@ Run the program:
 sudo apt update
 sudo apt install build-essential
 Clone the repository:
-
+```bash
 git clone https://github.com/asrahi-8/C-Calculator.git
 cd C-Calculator
+```
 Compile the program:
-
+```bash
 gcc NEW.c -o calculator
+```
 Run the program:
-
+```bash
 ./calculator
 
-
+```
 ### Mobile (Termux on Android)
 1.**Install Termux from the Play Store or F-Droid**
 
-Update and install clang:
-
+2.**Update and install clang:**
+```bash
 pkg update
 pkg install clang git
-Clone the repository:
-
+```
+3.**Clone the repository:**
+```bash
 git clone https://github.com/asrahi-8/C-Calculator.git
 cd C-Calculator
-Compile the program:
-
+```
+4.**Compile the program:**
+```bash
 clang NEW.c -o calculator
-Run the program:
-
-Edit
+```
+5.**Run the program:**
+```bash
 ./calculator
-
+```
 ### Usage
 Once the program runs, it will prompt you to enter two numbers. It will then display the results of addition, subtraction, multiplication, and division (with division by zero handled safely).
 
